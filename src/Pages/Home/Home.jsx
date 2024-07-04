@@ -1,26 +1,31 @@
+import { ImCross } from "react-icons/im";
 import Nav from "../../Components/Nav";
 
 const Home = () => {
   return (
-    <div className="">
-      <div className="drawer">
-        <input id="my-drawer" type="checkbox" className="drawer-toggle" />
-        <div className="drawer-content">
+    <div className="bg-gray-200">
+      <div className="drawer lg:drawer-open">
+        <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
+        <div className="drawer-content flex flex-col items-center justify-center">
           {/* Page content here */}
-          <label htmlFor="my-drawer" className="btn btn-circle btn-primary drawer-button">
-                X
+          <label
+            htmlFor="my-drawer-2"
+            className="btn btn-primary drawer-button lg:hidden"
+          >
+            Open drawer
           </label>
         </div>
         <div className="drawer-side max-w-sm max-h-screen">
-          <label
-            htmlFor="my-drawer"
-            aria-label="close sidebar"
-            className=""
-          ></label>
-          <ul className="menu  min-h-full w-full p-4">
+        
+          <ul className="menu min-h-full w-full p-4">
             {/* Sidebar content here */}
-          
-           <Nav></Nav>
+            <label
+            htmlFor="my-drawer-2"
+            aria-label="close sidebar"
+            className="drawer-overlay text-right btn 
+            btn-circle lg:hidden absolute z-[10] right-5 text-orange-500"
+          > <ImCross/> </label>
+            <Nav />
           </ul>
         </div>
       </div>

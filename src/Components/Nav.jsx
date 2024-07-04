@@ -4,81 +4,50 @@ import { SiFacebook, SiGithub, SiInstagram } from "react-icons/si";
 const Nav = () => {
   const menu = (
     <>
-      <li className="text-center text-xl">
+      <li className=" text-base mx-auto font-semibold">
         <a>Home</a>
       </li>
-      <li  className="text-center text-xl">
+      <li  className=" text-base mx-auto font-semibold">
         <a>About</a>
       </li>
-      <li  className="text-center text-xl">
+      <li  className=" text-base mx-auto font-semibold">
         <a>Skillset</a>
       </li>
-      <li  className="text-center text-xl">
+      <li  className=" text-base mx-auto font-semibold">
         <a>Projects</a>
       </li>
-      <li  className="text-center text-xl">
+      <li  className=" text-base mx-auto font-semibold">
         <a>Education</a>
       </li >
-      <li  className="text-center text-xl">
+      <li  className=" text-base mx-auto font-semibold">
         <a>Contact</a>
       </li>
     </>
   );
 
   return (
-    <div className=" h-full   rounded-3xl border-2 border-black flex flex-col">
-      <div className="card bg-base-100 w-full ">
-        <h1 className="text-3xl font-semibold text-black text-center mt-2">
+    <div className="    rounded-3xl  flex flex-col">
+      <div className="card rounded-b-none rounded-t-3xl bg-base-100 w-full h-fit ">
+        <h1 className="text-xl font-semibold text-black text-center mt-2">
           My Portfolio
         </h1>
-        <h1 className="text-xl font-bold text-orange-600 text-center mb-4">
+        <h1 className="text-lg font-bold text-orange-600 text-center mb-4">
           Web Developer
         </h1>
-        <figure className="mx-8 rounded-xl bg-slate-200 w-64 h-40 ">
-          <img className="contain"
-            src="https://i.ibb.co/cxCNpsc/image-1-1-Onnqk-Yf7-Q-transformed.png"
+        <figure className="sm:mx-auto lg:mx-8 bg-slate-200 w-52 h-32 rounded-xl bg-no-repeat">
+          <img 
+            src="https://i.ibb.co/R4G38CP/IMG-20240704-205057.jpg"
             alt="SB"
           />
         </figure>
-        <div className="card-body">
-          <div className="navbar  flex-col">
-            <div className="navbar-start">
-              <div className="dropdown">
-                <div
-                  tabIndex={0}
-                  role="button"
-                  className="btn btn-ghost lg:hidden"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-5 w-5"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M4 6h16M4 12h8m-8 6h16"
-                    />
-                  </svg>
-                </div>
-                <ul
-                  tabIndex={0}
-                  className="menu menu-sm dropdown-content rounded-box 
-                  z-[1]  w-52 p-2 shadow "
-                >
-                  {menu}
-                </ul>
-              </div>
-            
-            </div>
-            <div className="navbar-center hidden lg:flex">
-              <ul className="menu menu-dropdown px-1">{menu}</ul>
+        <div className="card-body pt-0 ">
+          <div className="navbar w-full flex-col">
+           
+            <div className="navbar-center flex">
+              <ul className="menu menu-dropdown p-0">{menu}</ul>
             </div>
             <div className="">
-              <button className="btn bg-orange-500 text-white text-2xl 
+              <button className="btn bg-orange-500 text-white text-lg 
               font-semibold rounded-xl">
                 Download CV</button>
             </div>
