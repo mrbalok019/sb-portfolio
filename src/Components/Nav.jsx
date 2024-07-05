@@ -47,9 +47,12 @@ const Nav = () => {
               <ul className="menu menu-dropdown p-0">{menu}</ul>
             </div>
             <div className="">
-              <button className="btn bg-orange-500 text-white text-lg 
+              
+            <a href="https://drive.google.com/file/d/1SM2Ywif2-VHgFpXibib7Sq4LtP7cp1N8/view?usp=sharing">
+            <button className="btn bg-orange-500 text-white text-lg 
               font-semibold rounded-xl">
-                Download CV</button>
+              Download CV</button>
+              </a> 
             </div>
            
           </div>

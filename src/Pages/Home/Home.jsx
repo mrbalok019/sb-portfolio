@@ -1,19 +1,32 @@
 import { ImCross } from "react-icons/im";
 import Nav from "../../Components/Nav";
+import { TiThMenu } from "react-icons/ti";
+import Banner from "../../Components/Banner/Banner";
+import About from "../../Components/About";
 
 const Home = () => {
   return (
     <div className="bg-gray-200">
       <div className="drawer lg:drawer-open">
         <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
-        <div className="drawer-content flex flex-col items-center justify-center">
+        <div className="drawer-content flex flex-col ">
           {/* Page content here */}
-          <label
-            htmlFor="my-drawer-2"
-            className="btn btn-primary drawer-button lg:hidden"
-          >
-            Open drawer
+            <label
+                htmlFor="my-drawer-2"
+                className="btn bg-black drawer-button lg:hidden rounded-r-lg 
+                text-orange-500 left-0 z-[20] "
+            >
+            <TiThMenu />
           </label>
+        
+            <div>
+                <Banner/>
+            </div>
+        
+            <div>
+                <About/>
+            </div>
+
         </div>
         <div className="drawer-side max-w-sm max-h-screen">
         
