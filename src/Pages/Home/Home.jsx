@@ -6,6 +6,8 @@ import About from "../../Components/About";
 import Skillset from "../../Components/Skillset";
 import Projects from "../../Components/Banner/Projects";
 import Footer from "../../Components/Footer";
+import Education from "../../Components/Education";
+import ContactUs from "../../Components/ContactUs";
 
 const Home = () => {
   return (
@@ -17,7 +19,7 @@ const Home = () => {
             <label
                 htmlFor="my-drawer-2"
                 className="btn bg-black drawer-button lg:hidden rounded-r-lg 
-                text-orange-500 left-0 z-[20] "
+                text-orange-500 left-0 z-[2] "
             >
             <TiThMenu />
           </label>
@@ -39,22 +41,35 @@ const Home = () => {
              data-aos-duration="1000">
                 <Projects/>
             </div>
+            <div id="education" data-aos="fade-up"
+             data-aos-duration="1000">
+                <Education/>
+            </div>
+            <div id="contact" data-aos="fade-up"
+             data-aos-duration="1000">
+                <ContactUs/>
+            </div>
 
             <div className="w-full">
                 <Footer></Footer>
             </div>
 
         </div>
-        <div className="drawer-side max-w-sm max-h-screen">
+        <div className="z-[10] drawer-side max-w-72 lg:max-w-sm max-h-screen">
         
-          <ul className="menu min-h-full w-full p-4">
+          <ul className="menu min-h-full w-full lg:p-4">
             {/* Sidebar content here */}
+           
             <label
             htmlFor="my-drawer-2"
             aria-label="close sidebar"
             className="drawer-overlay text-right btn 
             btn-circle lg:hidden absolute z-[10] right-5 text-orange-500"
-          > <ImCross/> </label>
+             > 
+                <ImCross/> 
+             </label>
+
+
             <Nav />
           </ul>
         </div>

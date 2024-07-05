@@ -3,7 +3,7 @@ import { BiSolidUpArrow } from "react-icons/bi";
 
 const Footer = () => {
   return (
-    <div className="mb-10">
+    <div className="pb-4">
       <footer className="footer footer-center bg-slate-800 text-base-content p-4">
         <aside>
           <p className="text-sm lg:text-xl font-semibold text-white">

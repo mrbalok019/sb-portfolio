@@ -26,7 +26,7 @@ const Nav = () => {
   );
 
   return (
-    <div className="    rounded-3xl  flex flex-col">
+    <div className="   rounded-3xl  flex flex-col">
       <div className="card rounded-b-none rounded-t-3xl bg-base-100 w-full h-fit ">
         <h1 className="text-xl font-semibold text-black text-center mt-2">
           My Portfolio
@@ -34,8 +34,8 @@ const Nav = () => {
         <h1 className="text-lg font-bold text-orange-600 text-center mb-4">
           Web Developer
         </h1>
-        <figure className="sm:mx-auto lg:mx-8 bg-slate-200 w-52 h-32 rounded-xl bg-no-repeat">
-          <img 
+        <figure className=" hidden lg:flex ">
+          <img className="rounded-xl hidden lg:flex lg:mx-8 bg-slate-200 w-52 h-32 rounded-xl bg-no-repeat"
             src="https://i.ibb.co/R4G38CP/IMG-20240704-205057.jpg"
             alt="SB"
           />
