@@ -5,22 +5,22 @@ const Nav = () => {
   const menu = (
     <>
       <li className=" text-base mx-auto font-semibold">
-        <a>Home</a>
+        <a href="#home">Home</a>
       </li>
       <li  className=" text-base mx-auto font-semibold">
-        <a>About</a>
+        <a href="#about">About</a>
       </li>
       <li  className=" text-base mx-auto font-semibold">
-        <a>Skillset</a>
+        <a href="#skillset">Skillset</a>
       </li>
       <li  className=" text-base mx-auto font-semibold">
-        <a>Projects</a>
+        <a href="#projects">Projects</a>
       </li>
       <li  className=" text-base mx-auto font-semibold">
-        <a>Education</a>
+        <a href="#education">Education</a>
       </li >
       <li  className=" text-base mx-auto font-semibold">
-        <a>Contact</a>
+        <a href="#contact">Contact</a>
       </li>
     </>
   );

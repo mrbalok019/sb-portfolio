@@ -3,6 +3,7 @@ import Nav from "../../Components/Nav";
 import { TiThMenu } from "react-icons/ti";
 import Banner from "../../Components/Banner/Banner";
 import About from "../../Components/About";
+import Skillset from "../../Components/Skillset";
 
 const Home = () => {
   return (
@@ -19,12 +20,16 @@ const Home = () => {
             <TiThMenu />
           </label>
         
-            <div>
+            <div id="home">
                 <Banner/>
             </div>
         
-            <div>
+            <div id="about">
                 <About/>
+            </div>
+        
+            <div id="skillset">
+                <Skillset/>
             </div>
 
         </div>
