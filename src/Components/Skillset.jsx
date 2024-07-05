@@ -11,7 +11,7 @@ const Skillset = () => {
            Here are some expertise of mine."
             />
 
-            <div className='grid grid-cols-3 md:grid-cols-5 lg:grid-cols-5 gap-6 w-auto'>
+            <div className='grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6 w-auto'>
                 <button className='btn btn-circle w-28 h-28 bg-orange-400'>
                      <i className="programming lang-c w-24 h-24"></i>
                 </button>

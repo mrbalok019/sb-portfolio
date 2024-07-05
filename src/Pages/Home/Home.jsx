@@ -4,6 +4,8 @@ import { TiThMenu } from "react-icons/ti";
 import Banner from "../../Components/Banner/Banner";
 import About from "../../Components/About";
 import Skillset from "../../Components/Skillset";
+import Projects from "../../Components/Banner/Projects";
+import Footer from "../../Components/Footer";
 
 const Home = () => {
   return (
@@ -24,12 +26,22 @@ const Home = () => {
                 <Banner/>
             </div>
         
-            <div id="about">
+            <div id="about" data-aos="fade-up"
+             data-aos-duration="1000">
                 <About/>
             </div>
         
-            <div id="skillset">
+            <div id="skillset" data-aos="fade-up"
+             data-aos-duration="1000">
                 <Skillset/>
+            </div>
+            <div id="projects" data-aos="fade-up"
+             data-aos-duration="1000">
+                <Projects/>
+            </div>
+
+            <div className="w-full">
+                <Footer></Footer>
             </div>
 
         </div>

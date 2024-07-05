@@ -11,7 +11,7 @@ const Banner = () => {
                         
                         <p className="mt-6 mb-4 text-xl font-bold "> Hi there, It's me 
                         </p>
-                        <h1 id='name1' className="text-3xl font-bold leading-none lg:text-5xl">
+                        <h1 id='name1' className="text-3xl font-bold leading-none lg:text-5xl h-auto py-2">
                             Shanchayan <br /> Bhattacharyya
                         </h1>
                         <p className="mt-6 mb-4 text-xl lg:text-2xl font-bold ">
