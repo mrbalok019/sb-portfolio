@@ -4,10 +4,11 @@ import { TiThMenu } from "react-icons/ti";
 import Banner from "../../Components/Banner/Banner";
 import About from "../../Components/About";
 import Skillset from "../../Components/Skillset";
-import Projects from "../../Components/Banner/Projects";
+
 import Footer from "../../Components/Footer";
 import Education from "../../Components/Education";
 import ContactUs from "../../Components/ContactUs";
+import Projects from "../../Components/Projects";
 
 const Home = () => {
   return (
@@ -19,7 +20,7 @@ const Home = () => {
             <label
                 htmlFor="my-drawer-2"
                 className="btn bg-black drawer-button lg:hidden rounded-r-lg 
-                text-orange-500 left-0 z-[2] "
+                text-orange-500 left-0 text-sm p-3 z-[2] fixed top-1/4"
             >
             <TiThMenu />
           </label>

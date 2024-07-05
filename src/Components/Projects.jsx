@@ -1,5 +1,5 @@
 import React from 'react';
-import SectionTitle from '../../Pages/SectionTitle';
+import SectionTitle from './SectionTitle';
 
 const Projects = () => {
     return (
@@ -22,57 +22,45 @@ const Projects = () => {
                    <div>
                     <a href="https://sb-real-estates.netlify.app">
                     <img src="https://i.ibb.co/TKxBmgN/sbestates-SS-FILEminimizer.jpg" alt=""  
-                    //  style={{
-                    //     willChange: "transform",
-                    //     transform: "translate3d(0px, 0px, 0px)",
-                    //     transition: "transform 5s cubic-bezier(0, 0, 0, 1) 0s"
-                    //   }}
-                      className='object-cover w-auto h-auto  hover:scale-110'
+                  
+                      className='object-cover rounded-xl w-auto h-96  hover:scale-110  '
                     />
                     </a>
                    </div>
 
                 </div>
-                <div className='row-span-2 '>
-                <div className='mt-24'>
-                    <a href="https://sb-real-estates.netlify.app">
+                <div className='row-span-2 pt-20'>
+              
+                    <a href="https://studygrant.netlify.app">
                     <img src="https://i.ibb.co/K2hppVz/studygrantss.jpg" alt=""  
+                   
+                      className='object-cover rounded-xl w-auto h-96  hover:scale-110'
+                    />
+                    </a>
+                  
+
+                </div>
+                <div className='row-span-2 '>
+                <div>
+                    <a href="https://sbarts.netlify.app">
+                    <img src="https://i.ibb.co/YjCrMtm/Messenger-creation-42dd6406-06c6-4937-944f-6cd2cabbb14d.jpg" alt=""  
                     //  style={{
                     //     willChange: "transform",
                     //     transform: "translate3d(0px, 0px, 0px)",
                     //     transition: "transform 5s cubic-bezier(0, 0, 0, 1) 0s"
                     //   }}
-                      className='object-cover w-auto h-auto  hover:scale-110'
+                      className='object-cover rounded-xl w-full h-96 hover:scale-110 '
                     />
                     </a>
                    </div>
 
                 </div>
-                <div className='row-span-2 '>
+                <div className='row-span-1 '>
                 <div>
-                    <a href="https://sb-real-estates.netlify.app">
-                    <img src="https://i.ibb.co/TKxBmgN/sbestates-SS-FILEminimizer.jpg" alt=""  
-                    //  style={{
-                    //     willChange: "transform",
-                    //     transform: "translate3d(0px, 0px, 0px)",
-                    //     transition: "transform 5s cubic-bezier(0, 0, 0, 1) 0s"
-                    //   }}
-                      className='object-cover w-auto h-auto  hover:scale-110'
-                    />
-                    </a>
-                   </div>
+                    <a href="https://edublogsb.netlify.app">
+                    <img src="https://i.ibb.co/D5Dkgb4/Messenger-creation-dd781097-338c-4618-9d4e-2e81af01d798.jpg" alt=""  
 
-                </div>
-                <div className='row-span-2 '>
-                <div>
-                    <a href="https://sb-real-estates.netlify.app">
-                    <img src="https://i.ibb.co/TKxBmgN/sbestates-SS-FILEminimizer.jpg" alt=""  
-                    //  style={{
-                    //     willChange: "transform",
-                    //     transform: "translate3d(0px, 0px, 0px)",
-                    //     transition: "transform 5s cubic-bezier(0, 0, 0, 1) 0s"
-                    //   }}
-                      className='object-cover w-auto h-auto  hover:scale-110'
+                      className='object-cover w-full h-96  hover:scale-110 rounded-xl'
                     />
                     </a>
                    </div>
@@ -83,7 +71,7 @@ const Projects = () => {
             </div>
             
             <a href="https://github.com/mrbalok019" className='flex justify-center mt-6 '>
-            <button className='rounded-xl btn btn-neutral text-white' >
+            <button className='rounded-xl btn bg-orange-400 text-white' >
                 View All Projects
             </button>
             </a>

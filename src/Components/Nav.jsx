@@ -31,7 +31,10 @@ const Nav = () => {
         <h1 className="text-xl font-semibold text-black text-center mt-2">
           My Portfolio
         </h1>
-        <h1 className="text-lg font-bold text-orange-600 text-center mb-4">
+        <h1 className="text-lg font-bold text-orange-600 text-center mb-4 lg:hidden">
+          Shanchayan <br /> Bhattacharyya
+        </h1>
+        <h1 className="text-lg font-bold text-black lg:text-orange-600 text-center mb-4">
           Web Developer
         </h1>
         <figure className=" hidden lg:flex ">

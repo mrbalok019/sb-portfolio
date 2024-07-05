@@ -1,5 +1,5 @@
 import React from 'react';
-import SectionTitle from '../Pages/SectionTitle';
+import SectionTitle from './SectionTitle';
 
 const Education = () => {
     return (
